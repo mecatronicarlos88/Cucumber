@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    function CostoFruta(fruta){
+
+        switch(fruta){
+            case 'Naranja' :
+                alert("Costo de la Naranja 20 pesos")
+            break;
+            case 'Melon' :
+                alert("Costo del Melon 50 pesos")
+            break;
+            case 'Piña' :
+                alert("Costo de la Piña 45 pesos")
+            break;
+            default:
+                alert("No tenemos el precio de la Fruta "+ fruta)
+            break;
+
+        }
+
+    }
+
+    let fruta=prompt("Escoje una fruta Naranja, Melon y Piña ?")
+    CostoFruta(fruta)
+    
+</script>

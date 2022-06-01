@@ -1,0 +1,17 @@
+1. npm init
+Genera el archivo package json
+
+2. npm install cypress --save-dev
+Se instala cypress
+
+3. npm install -g npx
+Biblioteca para que se puedan ejecutar los comandos npx
+
+4. npx cypress install --force
+Se instala versiòn correcta de cypress
+
+5. node_modules\.bin\cypress open
+Se ejecuta e inicializa cypress
+
+6. npx cypress open
+Inicias Cypress
